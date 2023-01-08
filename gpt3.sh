@@ -9,13 +9,13 @@ MODEL="text-davinci-003"
 # Set the prompt to use as input for the GPT-3 model
 PROMPT="$1"
 
-# Set the number of tokens to generate (max: 2048)
+# Set the number of tokens to generate
 TOKEN_COUNT=300
 
-# Set the temperature of the generation (lower values result in more deterministic output)
+# Set the temperature
 TEMPERATURE=0.4
 
-# Set the top_p value (higher values result in more deterministic output)
+# Set the top_p value
 TOP_P=1
 
 # Set the frequency
