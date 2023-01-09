@@ -1,7 +1,7 @@
 ![Untitled](https://user-images.githubusercontent.com/17044663/211204519-feaa9464-d8f3-495c-b61c-5eb7532f67b9.png)
 
 # gpt3cli
-Access GPT3 straight from the terminal.
+Access GPT3 straight from your terminal.
 
 ### How to use:
 
