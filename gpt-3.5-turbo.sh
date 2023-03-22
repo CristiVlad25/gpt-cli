@@ -10,7 +10,7 @@ MODEL="gpt-3.5-turbo-0301"
 PROMPT="$1"
 
 # Set the number of tokens to generate
-TOKEN_COUNT=1000
+TOKEN_COUNT=500
 
 # Set the temperature
 TEMPERATURE=0.0
