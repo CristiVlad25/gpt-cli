@@ -3,17 +3,17 @@
 # Set your OpenAI API key
 export OPENAI_API_KEY="Your OPENAI API KEY"
 
-# Set the model to use (e.g. "text-davinci-003")
+# Set the model to use (e.g. "text-davinci-003") - this is very capable and also inexpensive (in between 3.5-turbo and 4)
 MODEL="text-davinci-003"
 
 # Set the prompt to use as input for the GPT-3 model
 PROMPT="$1"
 
 # Set the number of tokens to generate
-TOKEN_COUNT=300
+TOKEN_COUNT=500
 
 # Set the temperature
-TEMPERATURE=0.4
+TEMPERATURE=0.0
 
 # Set the top_p value
 TOP_P=1
