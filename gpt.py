@@ -45,7 +45,7 @@ data = {
     "max_tokens": TOKEN_COUNT,
 }
 
-response = http://requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
+response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
 
 output = response.json()["choices"][0]["message"]["content"]
 print(output)
